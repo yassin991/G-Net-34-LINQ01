@@ -43,17 +43,25 @@
             #endregion
             #region Question04
 
-            var productsInRange = ProductList
+            //var productsInRange = ProductList
 
-                .Where(p => p.UnitPrice>=10 && p.UnitPrice<=30);
+            //    .Where(p => p.UnitPrice>=10 && p.UnitPrice<=30);
 
-            foreach (var p in productsInRange)
-            {
-                Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
-            }
+            //foreach (var p in productsInRange)
+            //{
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            //}
 
             #endregion
+            #region Question05
+    //        var condimentsInStock = ProductList
+    //.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
 
+    //        foreach (var p in condimentsInStock)
+    //        {
+    //            Console.WriteLine($"{p.ProductName} - Stock: {p.UnitsInStock}");
+    //        }
+            #endregion
 
 
 
