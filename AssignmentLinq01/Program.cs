@@ -63,21 +63,33 @@
             //        }
             #endregion
             #region Question06
-    ////        var result = ProductList
-    ////.Select(p => new
-    ////{
-    ////    Name = p.ProductName,
-    ////    Price = p.UnitPrice,
-    ////    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
-    ////});
+            ////        var result = ProductList
+            ////.Select(p => new
+            ////{
+            ////    Name = p.ProductName,
+            ////    Price = p.UnitPrice,
+            ////    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            ////});
 
-    ////        foreach (var item in result)
-    ////        {
-    ////            Console.WriteLine($"{item.Name} - {item.Price} - {item.StockStatus}");
-    ////        }
+            ////        foreach (var item in result)
+            ////        {
+            ////            Console.WriteLine($"{item.Name} - {item.Price} - {item.StockStatus}");
+            ////        }
             #endregion
+            #region Question07
+            //        var indexedProducts = ProductList
+            //.Select((p, index) => new
+            //{
+            //    Position = index + 1,
+            //    Name = p.ProductName
+            //});
 
-
+            //        foreach (var item in indexedProducts)
+            //        {
+            //            Console.WriteLine($"{item.Position}. {item.Name}");
+            //        }
+            #endregion
+          
 
 
 
