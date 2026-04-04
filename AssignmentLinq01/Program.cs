@@ -54,15 +54,28 @@
 
             #endregion
             #region Question05
-    //        var condimentsInStock = ProductList
-    //.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+            //        var condimentsInStock = ProductList
+            //.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
 
-    //        foreach (var p in condimentsInStock)
-    //        {
-    //            Console.WriteLine($"{p.ProductName} - Stock: {p.UnitsInStock}");
-    //        }
+            //        foreach (var p in condimentsInStock)
+            //        {
+            //            Console.WriteLine($"{p.ProductName} - Stock: {p.UnitsInStock}");
+            //        }
             #endregion
+            #region Question06
+    ////        var result = ProductList
+    ////.Select(p => new
+    ////{
+    ////    Name = p.ProductName,
+    ////    Price = p.UnitPrice,
+    ////    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+    ////});
 
+    ////        foreach (var item in result)
+    ////        {
+    ////            Console.WriteLine($"{item.Name} - {item.Price} - {item.StockStatus}");
+    ////        }
+            #endregion
 
 
 
