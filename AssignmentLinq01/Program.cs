@@ -32,16 +32,27 @@
 
             #endregion
             #region Question03
-    //        var sortedProducts = ProductList
-    //.OrderBy(p => p.UnitPrice);
+            //        var sortedProducts = ProductList
+            //.OrderBy(p => p.UnitPrice);
 
-    //        foreach (var p in sortedProducts)
-    //        {
-    //            Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
-    //        }
+            //        foreach (var p in sortedProducts)
+            //        {
+            //            Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            //        }
 
             #endregion
+            #region Question04
 
+            var productsInRange = ProductList
+
+                .Where(p => p.UnitPrice>=10 && p.UnitPrice<=30);
+
+            foreach (var p in productsInRange)
+            {
+                Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            }
+
+            #endregion
 
 
 
