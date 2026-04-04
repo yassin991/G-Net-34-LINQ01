@@ -89,7 +89,16 @@
             //            Console.WriteLine($"{item.Position}. {item.Name}");
             //        }
             #endregion
-          
+            #region Question08
+    //        var sorted = ProductList
+    //.OrderBy(p => p.Category)
+    //.ThenByDescending(p => p.UnitPrice);
+
+    //        foreach (var p in sorted)
+    //        {
+    //            Console.WriteLine($"{p.Category} - {p.ProductName} - {p.UnitPrice}");
+    //        }
+            #endregion
 
 
 
