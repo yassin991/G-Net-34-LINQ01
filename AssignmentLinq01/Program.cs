@@ -139,16 +139,30 @@
             //        }
             #endregion
             #region Question12
-    //        string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
-    //        var sortedWords = Arr
-    //.OrderBy(w => w.Length) 
-    //.ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
-    //        foreach (var word in sortedWords)
-    //        {
-    //            Console.WriteLine(word);
-    //        }
+            //        string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //        var sortedWords = Arr
+            //.OrderBy(w => w.Length) 
+            //.ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+            //        foreach (var word in sortedWords)
+            //        {
+            //            Console.WriteLine(word);
+            //        }
             #endregion
+            #region Question13
+//            string[] digits =
+//{
+//    "zero","one","two","three","four",
+//    "five","six","seven","eight","nine"
+//};
+//            var result = digits
+//    .Where(d => d.Length > 1 && d[1] == 'i')
+//    .Reverse();
 
+//            foreach (var d in result)
+//            {
+//                Console.WriteLine(d);
+//            }
+            #endregion
         }
     }
 }
