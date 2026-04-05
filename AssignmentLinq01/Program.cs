@@ -126,19 +126,28 @@
             //        }
             #endregion
             #region Question11
-    //        var result = ProductList
-    //.Select((p, index) => new
-    //{
-    //    Position = index + 1,
-    //    p.ProductName
-    //});
+            //        var result = ProductList
+            //.Select((p, index) => new
+            //{
+            //    Position = index + 1,
+            //    p.ProductName
+            //});
 
-    //        foreach (var item in result)
+            //        foreach (var item in result)
+            //        {
+            //            Console.WriteLine($"{item.Position}. {item.ProductName}");
+            //        }
+            #endregion
+            #region Question12
+    //        string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+    //        var sortedWords = Arr
+    //.OrderBy(w => w.Length) 
+    //.ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+    //        foreach (var word in sortedWords)
     //        {
-    //            Console.WriteLine($"{item.Position}. {item.ProductName}");
+    //            Console.WriteLine(word);
     //        }
             #endregion
-
 
         }
     }
