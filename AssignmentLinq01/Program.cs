@@ -111,21 +111,33 @@
 
             #endregion
             #region Question10
-    //        var ordersQuery =
-    //from o in Orders
-    //where o.OrderDate.Year >= 1997
-    //select new
-    //{
-    //    o.CustomerID,
-    //    o.OrderDate
-    //};
+            //        var ordersQuery =
+            //from o in Orders
+            //where o.OrderDate.Year >= 1997
+            //select new
+            //{
+            //    o.CustomerID,
+            //    o.OrderDate
+            //};
 
-    //        foreach (var o in ordersQuery)
+            //        foreach (var o in ordersQuery)
+            //        {
+            //            Console.WriteLine($"{o.CustomerID} - {o.OrderDate}");
+            //        }
+            #endregion
+            #region Question11
+    //        var result = ProductList
+    //.Select((p, index) => new
+    //{
+    //    Position = index + 1,
+    //    p.ProductName
+    //});
+
+    //        foreach (var item in result)
     //        {
-    //            Console.WriteLine($"{o.CustomerID} - {o.OrderDate}");
+    //            Console.WriteLine($"{item.Position}. {item.ProductName}");
     //        }
             #endregion
-
 
 
         }
